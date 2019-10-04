@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="styles.css" />
+        <link
+            href="https://fonts.googleapis.com/css?family=Fira+Code:300,400,500,600&display=swap"
+            rel="stylesheet"
+        />
+        <title>Spotify API</title>
+    </head>
+
+    <body>
+        <header>
+            <div class="page-title-container">
+                <p class="page-title">ohrwurm</p>
+                <p class="page-sub-title">
+                    Find your next ear worm.
+                </p>
+            </div>
+        </header>
+
+        <section id="search-section">
+            <input
+                type="search"
+                name="user-input"
+                placeholder="Type artist name or album..."
+            />
+            <select>
+                <option id="artist">artist</option>
+                <option id="album">album</option>
+            </select>
+            <button type="button" id="submit-button">SUBMIT</button>
+        </section>
+
+        <section id="results-for-container">
+            <div id="results-for">
+                <p></p>
+            </div>
+        </section>
+
+        <section id="results-container"></section>
+
+        <section id="more-button-container">
+            <!-- <button id="more-button">Show more</button> -->
+        </section>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
