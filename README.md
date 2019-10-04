@@ -1,4 +1,4 @@
-# Spotify API
+# Ohrwurm: Spotify Search
 A tool to search for artists and albums using the Spotify API.
 
 This is a small project I worked on during my time at [SPICED Academy](https://www.spiced.academy/program/full-stack-web-development/), where I studied from July - August 2019.
